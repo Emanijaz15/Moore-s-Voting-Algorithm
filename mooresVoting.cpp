@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int majorityElement(vector<int>& nums) {
         int n=nums.size();
         for(int val: nums){
@@ -34,4 +34,5 @@ public:
 
         return candidate;
     }
+
 };
